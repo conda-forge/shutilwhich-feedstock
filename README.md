@@ -33,7 +33,6 @@ conda search shutilwhich --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
