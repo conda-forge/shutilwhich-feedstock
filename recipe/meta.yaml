@@ -10,19 +10,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  skip: True  # [py>=33]
   number: {{ build_num }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
