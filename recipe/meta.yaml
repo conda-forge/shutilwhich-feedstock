@@ -14,11 +14,12 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
+  noarch: python
   number: {{ build_num }}
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
