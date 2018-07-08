@@ -14,14 +14,15 @@ Summary: shutil.which for those not using Python 3.3 yet.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/shutilwhich-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/shutilwhich-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/shutilwhich-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/shutilwhich-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/shutilwhich-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/shutilwhich-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/shutilwhich-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/shutilwhich-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/shutilwhich/badges/version.svg)](https://anaconda.org/conda-forge/shutilwhich)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/shutilwhich/badges/downloads.svg)](https://anaconda.org/conda-forge/shutilwhich)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-shutilwhich-green.svg)](https://anaconda.org/conda-forge/shutilwhich) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/shutilwhich.svg)](https://anaconda.org/conda-forge/shutilwhich) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/shutilwhich.svg)](https://anaconda.org/conda-forge/shutilwhich) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/shutilwhich.svg)](https://anaconda.org/conda-forge/shutilwhich) |
 
 Installing shutilwhich
 ======================
